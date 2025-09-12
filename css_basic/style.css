@@ -33,3 +33,17 @@ header, footer {
   background-color: #f2f2f2;
   text-align: center;
 }
+
+/* Optional responsive layout for smartphones */
+.works_on_smartphone main {
+  flex-direction: column;
+}
+
+.works_on_smartphone article, .works_on_smartphone aside {
+  flex: auto;
+}
+
+.logo {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
